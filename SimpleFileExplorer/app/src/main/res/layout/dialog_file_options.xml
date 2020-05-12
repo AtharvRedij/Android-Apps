@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:paddingBottom="24dp">
+
+    <TextView
+        android:id="@+id/fileOptionsTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        android:textSize="20sp"
+        android:text="Options"/>
+
+    <TextView
+        android:id="@+id/copyTextView"
+        style="@style/FileDialogOption"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:drawableLeft="@drawable/ic_copy"
+        android:drawableStart="@drawable/ic_copy"
+        android:text="Copy"/>
+
+    <TextView
+        android:id="@+id/moveTextView"
+        style="@style/FileDialogOption"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:drawableLeft="@drawable/ic_move"
+        android:drawableStart="@drawable/ic_move"
+        android:text="Move"/>
+
+
+    <TextView
+        android:id="@+id/deleteTextView"
+        style="@style/FileDialogOption"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:drawableLeft="@drawable/ic_delete"
+        android:drawableStart="@drawable/ic_delete"
+        android:text="Delete"/>
+
+    <TextView
+        android:id="@+id/shareTextView"
+        style="@style/FileDialogOption"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:drawableLeft="@drawable/ic_share"
+        android:drawableStart="@drawable/ic_share"
+        android:text="Share"/>
+
+</LinearLayout>

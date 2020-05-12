@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Audio Plus</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="record_label">Record</string>
+
+    <string name="recordings_label">Recordings</string>
+</resources>
